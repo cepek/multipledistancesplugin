@@ -1,6 +1,6 @@
 # multipledistancesplugin
 
-MultipleDistancesPlugin class is a plugin for gama-q2 adjustment program from Qt based GUI of project GNU gama https://www.gnu.org/software/gama/.  To build the plugin you need Qtcreator or Qt platform with Cmake installed and source codes from GNU gama project, the plugin is build as a Qt subproject. 
+MultipleDistancesPlugin class is a plugin for gama-q2 adjustment program from Qt based GUI of project GNU gama https://www.gnu.org/software/gama/.  To build the plugin you need QtCreator or Qt platform with Cmake installed and source codes from GNU gama project, the plugin is build as a Qt subproject. 
 
 * download GNU gama sources from git
 
