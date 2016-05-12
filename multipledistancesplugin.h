@@ -47,9 +47,12 @@
 #include "mytablewidgetitem.h"
 #include "help.h"
 
+<<<<<<< HEAD
 #include "networkadjustmentpanel.h"
 #include <gnu_gama/local/network.h>
 
+=======
+>>>>>>> 4f35a90f2ea91dcdf83a39c9c57f2e51af5d6b43
 namespace GNU_gama {
 namespace local {
     class LocalNetwork;
@@ -70,7 +73,11 @@ public:
     MultipleDistancesPlugin();
 
     QString getName();
+<<<<<<< HEAD
     QWidget* create(NetworkAdjustmentPanel* adjp);
+=======
+    QWidget* create(QString cname, LocalNetwork* ln);
+>>>>>>> 4f35a90f2ea91dcdf83a39c9c57f2e51af5d6b43
 
 private:
 
@@ -88,7 +95,10 @@ private:
     int statusBarTime = 4000;
     int precission = 4;
 
+<<<<<<< HEAD
     NetworkAdjustmentPanel* nap {nullptr};
+=======
+>>>>>>> 4f35a90f2ea91dcdf83a39c9c57f2e51af5d6b43
     QString confName;
     LocalNetwork* lnet {nullptr};
 
