@@ -41,21 +41,12 @@ QString MultipleDistancesPlugin::getName()
     return title;
 }
 
-<<<<<<< HEAD
 QWidget* MultipleDistancesPlugin::create(NetworkAdjustmentPanel *adjp)
 {    
     NetworkAdjustmentPanel* nap = adjp;
     confName = nap->configurationName();
     lnet = nap->adjustment()->get_local_network();
     dataList = new DataList(lnet);
-=======
-QWidget* MultipleDistancesPlugin::create(QString cname, LocalNetwork* ln)
-{
-    confName = cname;
-    lnet = ln;
-    dataList = new DataList(lnet);
-
->>>>>>> 4f35a90f2ea91dcdf83a39c9c57f2e51af5d6b43
     return getMainWindow();
 }
 
